@@ -14,7 +14,30 @@
             background-color: #f0f0f2;
             margin: 0;
             padding: 0;
+            font-size: 14px;
             font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            text-align: center;
+            width: 50%;
+            padding: 5rem;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+        }
+        p {
+            line-height: 1.3rem;
+        }
+        a {
+            color: black;
+            text-decoration: underline;
+            
+        }
+        a:hover, a:active {
+            color: green;
         }
 .textWithPadding {
     padding: 1rem 0;
@@ -26,10 +49,10 @@
     <div class="card">
         <h1>Pěstění lesů</h1>
         <h3>Ing. Zdeněk Věchet</h3>
-        <p class="textWithPadding">Údržba, výsadba a kácení lesních porostů. Poradenství ohledně lesního hospodářství.</p>
+        <br class="textWithPadding">Údržba, výsadba a kácení lesních porostů. </br>Poradenství ohledně lesního hospodářství.</p>
         <br><bold>kontaktní informace</bold></br>
-        tel.: <phone>  +420 606 639 631 </phone></br>
-        email: <email>zdenek.vechet@seznam.cz</email>
+        tel.: <a href="tel:00420606639631">  +420 606 639 631 </a></br>
+        email: <a href="mailto:zdenek.vechet@seznam.cz">zdenek.vechet@seznam.cz</a>
         </p>
         </div>
   </body>
