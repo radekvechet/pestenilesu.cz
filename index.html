@@ -45,9 +45,22 @@
         a:hover, a:active {
             color: green;
         }
-.textWithPadding {
-   color: darkgreen;
-}
+        .textWithPadding {
+            color: darkgreen;
+        }
+        @media only screen and (max-width: 800px) {
+            .card {
+                width: 75%;
+                margin: 2rem 0 6rem 0;
+            }
+        }
+        @media only screen and (max-width: 640px) {
+            .card {
+                width: 90%;
+                padding: 1.3rem;
+                margin: 1rem 0 4rem 0;
+            }
+        }
     </style>
   </head>
 
